@@ -356,4 +356,73 @@
     font-size: 14px;
     opacity: 0.8;
   }
+  @media (max-width: 768px) {
+  .title {
+    font-size: 16px;
+    padding: 10px;
+    top: 10px;
+    left: 10px;
+    max-width: 80%;
+  }
+
+  stats {
+  top: 60px;
+  left: 10px;
+  right: auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  max-width: 250px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+}
+
+  .stat-item {
+    align-items: flex-start;
+  }
+
+  .stat-value {
+    font-size: 20px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .legend {
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 8px;
+    max-width: 80%;
+  }
+
+  .legend-item {
+    margin: 4px 0;
+  }
+
+  .legend-color {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+
+  .logo {
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+
+  :global(.mapboxgl-popup-content) {
+    font-size: 13px;
+    max-width: 250px;
+    padding: 8px;
+  }
+}
 </style>
